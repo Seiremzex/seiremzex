@@ -1,0 +1,53 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#32ff7e;
+    border-bottom: 10px solid #34495e;
+    padding: 10px 20px;
+}
+
+h1{
+    font-family: "Press Start 2P", sans-serif;
+    color: purple;
+    text-shadow: 5px 5px 0px #34495e;
+    
+}
+
+nav{
+    text-align: right;
+}
+
+a {
+    display: inline-flex;
+    align-items: center;
+    color: #2c2c54;
+    font-size: 20px;
+    font-family: "Fira Code", Arial, Helvetica, sans-serif ;
+    font-weight: 500;
+    margin-right: 30px;
+    text-decoration: none; /* tirar o sublinhado*/
+}
+
+a::before {
+    content: "";
+    background-color: #B53471;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+#button:hover {
+    transform: scale(1.10);
+    cursor: grabbing;
+}
+
+#button {
+    display: inline-block;
+    background-color: #fd65a0;
+    padding: 18px 20px;
+    box-shadow: 5px 5px 0px 0px #34495e;
+    color: #000;
+    margin-right: 0;
+    transition: transform 350ms linear;
+}
